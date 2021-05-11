@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Landing page for Luke's Diner" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Luke's Diner</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="#top">
+        <img
+          id="header-img"
+          src="https://i.ibb.co/T0LmVqY/lukes.png"
+          alt="Luke's Diner Sign"
+        />
+      </a>
+      <nav id="nav-bar">
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#policy" class="nav-link">Policy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome">
+        <div class="welcome-card">
+          <div class="welcome-text">
+            <h1 class="welcome-title">Welcome to Luke's Diner</h1>
+            <p class="slogan">
+              We serve a damn fine cup of coffee, with a side of sarcasm.
+            </p>
+          </div>
+          <form
+            id="form"
+            class="subscription-form"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <input id="submit" type="submit" value="SUBSCRIBE" class="btn" />
+            <p class="subscribe-info">
+              We won't sell your email or send you junk. Just good stuff like
+              coupons and menu updates. Scout's honor.
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section id="special">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/m5OjH0IMDjk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="special-info">
+          <h2 class="special-title">New! Special omelette, only $4.75</h2>
+          <p>
+            We have replaced the Four Slice French Toast with a new special.
+            This special omelette is made with 3 eggs, bits of bacon, tomatoes
+            (cubed), swiss cheese, and a dash of oregano.
+          </p>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="menu-title">Luke's Menu</h2>
+        <p class="place-order">Call 860-294-1986 to place an order.</p>
+        <div class="menu-div">
+          <div>
+            <div class="menu-group">
+              <h3 class="menu-group-title">Breakfast</h3>
+              <ul class="menu-list">
+                <li>Regular omelette <span>$3.75</span></li>
+                <li>Special omelette <span>$4.75</span></li>
+                <li>Pancakes <span>$4.99</span></li>
+                <li>Bacon & eggs <span>$9.75</span></li>
+                <li>Grand Slam <span>$12.99</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3 class="menu-group-title">Lunch</h3>
+              <ul>
+                <li>Large salad <span>$3.75</span></li>
+                <li>BLT <span>$4.50</span></li>
+                <li>Grilled cheese sandwich <span>$5.75</span></li>
+                <li>Burger & fries <span>$8.99</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3 class="menu-group-title">Dinner</h3>
+              <ul>
+                <li>Ham & pea soup, biscuits <span>$7.99</span></li>
+                <li>Drumsticks, corn on the cob <span>$8.50</span></li>
+                <li>Fish & chips, coleslaw <span>$11.99</span></li>
+                <li>Steak & mashed potatoes <span>$14.75</span></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="menu-group">
+              <h3 class="menu-group-title">Dessert</h3>
+              <ul>
+                <li>Donut <span>$0.50</span></li>
+                <li>Ice cream <span>$0.75</span></li>
+                <li>Slice of pie <span>$1.99</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3 class="menu-group-title">Beverages</h3>
+              <ul>
+                <li>Water <span>free</span></li>
+                <li>Coffee (unlimited refills) <span>$0.75</span></li>
+                <li>Tea <span>$0.75</span></li>
+                <li>Soft Drink <span>$1.50</span></li>
+                <li>Hot Cocoa <span>$1.50</span></li>
+                <li>Milkshake <span>$1.99</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 class="about-title">About Us</h2>
+        <p class="about-info">
+          Formerly William's Hardware, our diner is located in Stars Hollow near
+          the Town Square. We serve breakfast, lunch, and dinner, and the best
+          coffee in the world. Established around 1991.
+        </p>
+        <img
+          class="diner-img"
+          src="https://imgix.bustle.com/rehost/2016/9/13/28c482f8-21ff-4263-93f4-eb4c1dd6e14b.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress"
+          alt="Luke's Diner front"
+        />
+      </section>
+
+      <section id="policy">
+        <h2 class="policy-title">Our Policy</h2>
+        <div class="policy-div">
+          <img
+            class="policy-img"
+            src="https://i.ibb.co/XVjstTX/no-cells.png"
+            alt="no cells phones"
+          />
+          <p class="policy-info">
+            Read the sign! No cell phones in the diner. Please take your
+            conversations outside. Also, our phone is for staff use only.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Contact</a></li>
+          <li><a href="#" class="footer-link">Careers</a></li>
+          <li><a href="#" class="footer-link">Support</a></li>
+        </ul>
+        <p>Copyright @ Luke's Diner, 2021</p>
+      </footer>
+    </main>
+  </body>
+</html>
