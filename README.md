@@ -1,6 +1,10 @@
-# fcc-product-landing-page
+# Luke's Diner Landing Page
 
 A product landing page done as practice in responsive web design for freeCodeCamp, using Luke's Diner from Gilmore Girls as inspiration. 
+
+- [x] Entire page and contents are responsive to resizing browser window
+- [x] Nav links scroll smoothly to their respective sections
+- [x] Working video included
 
 ![Screen Shot 2021-05-10 at 9 00 41 PM](https://user-images.githubusercontent.com/73324816/117756440-041a9980-b1d3-11eb-9360-2b7579c7d807.png)
 
